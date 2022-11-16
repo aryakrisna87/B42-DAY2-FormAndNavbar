@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form and Navbar</title>
+        <link rel="stylesheet" href="CSS/Contact.css" />
+    </head>
+    <body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+        <nav>
+            <ul>
+                <li><img src="Asset/Logo.png" style="width: 50px" /></li>
+                <li>
+                    <a href="" style="font-weight: bold">Home</a>
+                </li>
+                <li><a href="">MyProject</a></li>
+                <li
+                    style="
+                        width: 100%;
+                        display: flex;
+                        justify-content: flex-end;
+                    "
+                >
+                    <button type="button" ; class="btn-contactme">
+                        Contact Me
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <div class="div-text">
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="main-div">
+            <form style="width: 300px">
+                <div>
+                    <label> Name </label>
+                    <input type="Text" class="text-input" />
+                </div>
+                <div>
+                    <label> Email </label>
+                    <input type="Text" class="text-input" />
+                </div>
+                <div>
+                    <label>
+                        Phone number
+                        <input type="Text" class="text-input" />
+                    </label>
+                </div>
+                <div>
+                    <label> Subject </label>
+                    <select class="text-input">
+                        <option>Frontend</option>
+                        <option>Backend</option>
+                        <option>Fullstack</option>
+                    </select>
+                </div>
+                <div>
+                    <label>
+                        Your message
+                        <textarea class="text-input"></textarea>
+                    </label>
+                </div>
+                <button class="btn-submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
